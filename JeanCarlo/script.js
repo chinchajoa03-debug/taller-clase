@@ -1,10 +1,13 @@
-// ejercicio 1
-let leche = parseFloat(prompt("Ingrese el precio del primer producto:"));
-let arroz = parseFloat(prompt("Ingrese el precio del segundo producto:"));
-let papa = parseFloat(prompt("Ingrese el precio del tercer producto:"));
+//ejercicio 2
 
+let ancho = parseFloat(prompt("Ingresa el ancho de la pared en metros:"));
+let alto = parseFloat(prompt("Ingresa el alto de la pared en metros:"));
 
-let total = leche + arroz + papa;
+if (isNaN(ancho) || isNaN(alto) || ancho <= 0 || alto <= 0) {
+    alert("Por favor ingresa valores numéricos válidos y mayores a cero.");
+} else {
 
+    let area = ancho * alto;
 
-alert("El total a pagar es: $" + total);
+    alert(`El área de la pared es de ${area} metros cuadrados.`);
+}

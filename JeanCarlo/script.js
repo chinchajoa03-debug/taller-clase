@@ -43,14 +43,22 @@ console.log("la edad del usuario es: " + edad)
 let nombre= (prompt("ingrese su nombre"))
 let apellido= (prompt("ingrese su apellido"))
 
-console.log("bienvenido: " + nombre , apellido)*/
+console.log("bienvenido: " + nombre , apellido)
 //7.-----------------------------------------------------------------------------
-//Necesito calcular el **promedio de notas** de un estudiante.
-//  Pide las 3 notas (de 0 a 5) y muestra el promedio final.
+
 let nota1= parseFloat(prompt("ingrese la primera nota (de 0 a 5)"))
 let nota2= parseFloat(prompt("ingrese la segunda nota (de 0 a 5)"))
 let nota3= parseFloat(prompt("ingrese la tercera nota (de 0 a 5)"))
 
 let promedioNotas= (nota1+nota2+nota3) /3
 
-console.log("el promedio de notas del estudiantes es: " + promedioNotas)
+console.log("el promedio de notas del estudiantes es: " + promedioNotas)*/
+//8.-----------------------------------------------------------------------------
+//Debo calcular el **salario semanal** de un empleado.
+//  Pide el número de horas trabajadas en la semana y el precio que se paga por hora. Muestra el salario total.
+let horasTrabajadas= parseFloat(prompt("ingrese el numero de horas trabajadas en la semana"))
+let precioHora= parseFloat(prompt("ingrese el valor que se paga por hora"))
+
+let salarioTotal= (horasTrabajadas*precioHora)
+
+console.log("el salario total es: " + salarioTotal)

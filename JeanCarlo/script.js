@@ -14,7 +14,7 @@ let anchoPared= parseFloat(prompt("ingrese el ancho de la pared"))
 
 let area= anchoPared*altoPared
 
-console.log("el area es: " + area)*/
+console.log("el area es: " + area)
 //3.-----------------------------------------------------------------------------
 
 let largoPotrero= parseFloat(prompt("ingrese el largo del potrero"))
@@ -22,4 +22,11 @@ let anchoPotrero= parseFloat(prompt("ingrese el ancho del potrero"))
 
 let perimetro= 2*(largoPotrero+anchoPotrero)
 
-console.log("el perimetro del potrero rectangular es: " + perimetro)
+console.log("el perimetro del potrero rectangular es: " + perimetro)*/
+//4.-----------------------------------------------------------------------------
+
+let fahrenheit= parseFloat(prompt("ingrese la temperatura en °F"))
+
+let celsius = (fahrenheit - 32) * 5/9
+
+console.log("la temperatura en grados celcius es: " + celsius)

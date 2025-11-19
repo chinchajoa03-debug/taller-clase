@@ -29,7 +29,7 @@ let fahrenheit= parseFloat(prompt("ingrese la temperatura en °F"))
 
 let celsius = (fahrenheit - 32) * 5/9
 
-console.log("la temperatura en grados celcius es: " + celsius)*/
+console.log("la temperatura en grados celcius es: " + celsius)
 //5.-----------------------------------------------------------------------------
 
 let añoNacimiento= parseFloat(prompt("ingrese año de nacimiento"))
@@ -37,4 +37,11 @@ let añoActual= 2024
 
 let edad= añoActual-añoNacimiento
 
-console.log("la edad del usuario es: " + edad)
+console.log("la edad del usuario es: " + edad)*/
+//6.-----------------------------------------------------------------------------
+//Quiero un script que **salude formalmente** a un cliente. 
+// Pide el nombre y el apellido del usuario y muestra en consola el mensaje: "Bienvenido, [Nombre Completo]".
+let nombre= (prompt("ingrese su nombre"))
+let apellido= (prompt("ingrese su apellido"))
+
+console.log("bienvenido: " + nombre , apellido)

@@ -52,13 +52,19 @@ let nota3= parseFloat(prompt("ingrese la tercera nota (de 0 a 5)"))
 
 let promedioNotas= (nota1+nota2+nota3) /3
 
-console.log("el promedio de notas del estudiantes es: " + promedioNotas)*/
+console.log("el promedio de notas del estudiantes es: " + promedioNotas)
 //8.-----------------------------------------------------------------------------
-//Debo calcular el **salario semanal** de un empleado.
-//  Pide el número de horas trabajadas en la semana y el precio que se paga por hora. Muestra el salario total.
+
 let horasTrabajadas= parseFloat(prompt("ingrese el numero de horas trabajadas en la semana"))
 let precioHora= parseFloat(prompt("ingrese el valor que se paga por hora"))
 
 let salarioTotal= (horasTrabajadas*precioHora)
 
-console.log("el salario total es: " + salarioTotal)
+console.log("el salario total es: " + salarioTotal)*/
+//9.-----------------------------------------------------------------------------
+//Estoy planeando un viaje y el mapa está en millas. 
+// Pide una **distancia en millas** y muéstrala convertida a **kilómetros**. (1 milla = 1.60934 km).
+let distanciaMillas= parseFloat(prompt("ingrese la distancia en millas"))
+let kilómetros = distanciaMillas*1.60934
+
+console.log("la distancia en kilometros es: " + kilómetros)

@@ -37,11 +37,20 @@ let añoActual= 2024
 
 let edad= añoActual-añoNacimiento
 
-console.log("la edad del usuario es: " + edad)*/
+console.log("la edad del usuario es: " + edad)
 //6.-----------------------------------------------------------------------------
-//Quiero un script que **salude formalmente** a un cliente. 
-// Pide el nombre y el apellido del usuario y muestra en consola el mensaje: "Bienvenido, [Nombre Completo]".
+
 let nombre= (prompt("ingrese su nombre"))
 let apellido= (prompt("ingrese su apellido"))
 
-console.log("bienvenido: " + nombre , apellido)
+console.log("bienvenido: " + nombre , apellido)*/
+//7.-----------------------------------------------------------------------------
+//Necesito calcular el **promedio de notas** de un estudiante.
+//  Pide las 3 notas (de 0 a 5) y muestra el promedio final.
+let nota1= parseFloat(prompt("ingrese la primera nota (de 0 a 5)"))
+let nota2= parseFloat(prompt("ingrese la segunda nota (de 0 a 5)"))
+let nota3= parseFloat(prompt("ingrese la tercera nota (de 0 a 5)"))
+
+let promedioNotas= (nota1+nota2+nota3) /3
+
+console.log("el promedio de notas del estudiantes es: " + promedioNotas)

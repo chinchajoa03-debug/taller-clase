@@ -22,11 +22,19 @@ let anchoPotrero= parseFloat(prompt("ingrese el ancho del potrero"))
 
 let perimetro= 2*(largoPotrero+anchoPotrero)
 
-console.log("el perimetro del potrero rectangular es: " + perimetro)*/
+console.log("el perimetro del potrero rectangular es: " + perimetro)
 //4.-----------------------------------------------------------------------------
 
 let fahrenheit= parseFloat(prompt("ingrese la temperatura en °F"))
 
 let celsius = (fahrenheit - 32) * 5/9
 
-console.log("la temperatura en grados celcius es: " + celsius)
+console.log("la temperatura en grados celcius es: " + celsius)*/
+//5.-----------------------------------------------------------------------------
+
+let añoNacimiento= parseFloat(prompt("ingrese año de nacimiento"))
+let añoActual= 2024
+
+let edad= añoActual-añoNacimiento
+
+console.log("la edad del usuario es: " + edad)
